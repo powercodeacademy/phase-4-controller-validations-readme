@@ -11,6 +11,27 @@
 /db/*.sqlite3
 /db/*.sqlite3-*
 
+# Ignore Rails credentials and secrets
+/config/credentials.yml.enc
+/config/master.key
+/config/secrets.yml
+
+# Ignore node/yarn files (if present)
+/node_modules/
+/yarn-error.log
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore byebug history
+/.byebug_history
+
+# Ignore editor/OS files
+.DS_Store
+*.swp
+*~
+/.vscode/
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
