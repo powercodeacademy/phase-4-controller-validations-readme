@@ -44,7 +44,6 @@ class BirdsController < ApplicationController
   end
 
   def render_not_found_response
-    render json: { error: "Bird not found" }, status: :not_found
+    render json: { error: 'Bird not found' }, status: :not_found
   end
-
 end
